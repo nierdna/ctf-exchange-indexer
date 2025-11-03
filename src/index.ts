@@ -46,7 +46,8 @@ async function main() {
     logger.info('✅ Indexer is running');
 
   } catch (error) {
-    logger.error('❌ Failed to start indexer:', error);
+    const errorMessage = error instanceof Error ? (error.stack || error.message) : String(error);
+    logger.error(`❌ Failed to start indexer: ${errorMessage}`);
     process.exit(1);
   }
 }

@@ -138,7 +138,7 @@ async function main() {
     logger.info('✅ Indexer is running');
 
   } catch (error) {
-    logger.error('❌ Failed to start indexer:', error);
+    logger.error(`❌ Failed to start indexer: ${errorMessage}`);
     process.exit(1);
   }
 }

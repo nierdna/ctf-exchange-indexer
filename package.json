@@ -22,7 +22,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "@lynx-core/indexer": "^1.0.0"
+    "@lynx-core/indexer": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
