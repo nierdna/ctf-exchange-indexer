@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@lynx-core/indexer':
-    specifier: ^1.2.0
-    version: 1.2.0
+    specifier: ^1.4.0
+    version: 1.4.0
 
 devDependencies:
   '@types/node':
@@ -229,8 +229,8 @@ packages:
     dev: true
     optional: true
 
-  /@lynx-core/indexer@1.2.0:
-    resolution: {integrity: sha512-G+t4A/wcfoduGCJ4cJks6wAchcNN+YxguXXqW3+t1HPWYJs3S7Nmjfn4NvCRmlBYsWVNZzVYux+pimyOBzlzaA==}
+  /@lynx-core/indexer@1.4.0:
+    resolution: {integrity: sha512-txWlJuPSorqOuUS+ZwiHnGJ+NlMZsNiDoxqP+uWprRFICjA+dUre9vnMBW3Ua4v4UrhPu9qNXQxLq3uE8gD87w==}
     dependencies:
       amqplib: 0.10.9
       dotenv: 17.2.3
