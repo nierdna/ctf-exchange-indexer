@@ -60,7 +60,7 @@ wsRpcUrl: ${WS_RPC_URL}
 #   - wss://eth-mainnet.g.alchemy.com/v2/YOUR_KEY
 #   - wss://base-sepolia.g.alchemy.com/v2/YOUR_KEY
 
-fallbackRpcUrls: ["https://polygon-public.nodies.app"]
+fallbackRpcUrls: ["https://polygon-public.nodies.app", "https://polygon-rpc.com", "https://polygon-mainnet.gateway.tatum.io", "https://1rpc.io/matic"]
 # Description: Fallback RPC URLs (optional, for high availability)
 # Example:
 #   - wss://mainnet.infura.io/ws/v3/BACKUP_KEY
